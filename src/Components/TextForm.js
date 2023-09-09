@@ -25,6 +25,7 @@ export default function Textform(props) {
     console.log("clear clicked");
     let cleartext = "";
     setText(cleartext);
+    props.showAlert("Cleared text", "success")
   }
   const handleOnChange = (event) => {
     console.log("On changed");
